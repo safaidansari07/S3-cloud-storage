@@ -1,0 +1,32 @@
+{
+  "name": "s3-cloud-storage",
+  "version": "0.0.0",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20230321.0",
+    "typescript": "^5.0.2",
+    "wrangler": "2.13.0"
+  },
+  "private": true,
+  "scripts": {
+    "start": "wrangler dev",
+    "deploy": "wrangler publish",
+    "build": "webpack --progress"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.299.0",
+    "@google-cloud/storage": "^6.9.4",
+    "aws-sdk": "^2.1343.0",
+    "busboy": "^1.6.0",
+    "dotenv": "^16.0.3",
+    "firebase": "^9.18.0",
+    "firebase-admin": "^11.5.0",
+    "google-auth-library": "^8.7.0",
+    "googleapis": "^114.0.0",
+    "http2": "^3.3.7",
+    "itty-router": "^3.0.12",
+    "multer": "^1.4.5-lts.1",
+    "multer-s3": "^3.0.1",
+    "shortid": "^2.2.16",
+    "worktop": "^0.7.3"
+  }
+}
